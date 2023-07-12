@@ -1,5 +1,4 @@
 package may31;
-
 import java.time.LocalDate;
 
 public class StudentMember extends Member {
