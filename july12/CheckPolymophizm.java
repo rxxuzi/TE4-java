@@ -6,6 +6,9 @@ public class CheckPolymophizm {
       Bar bar = new Bar();
       Baz baz = new Baz();
 
+      Foo bar2 = new Bar();
+//      Bar bar3 = new Foo(); エラー
+
       System.out.println(foo.clac());
       System.out.println(bar.clac());
       System.out.println(baz.clac());
